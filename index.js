@@ -15,19 +15,19 @@
     let css = `
         @media screen and (min-width: 1700px) {
           .nodata .container main {
-            width: auto;
+            width: 100%;
           }
         }
 
         @media screen and (min-width: 1380px) {
           .nodata .container main {
-            width: auto;
+            width: 100%;
           }
         }
 
         @media screen and (max-width: 1320px) {
           .nodata .container main {
-            width: auto;
+            width: 100%;
           }
         }
 
@@ -65,12 +65,6 @@
         document.querySelectorAll(item).forEach(ele => {
             ele && ele.remove()
         })
-    })
-
-    let codeEleList = document.querySelectorAll("code")
-    codeEleList.forEach(ele=>{
-        ele.removeEventListener("mouseenter")
-
     })
 
 })();
